@@ -1,19 +1,21 @@
 body{
     margin:0%;
     padding:0%;
-    background-image:url("../images/bgnd1.jpeg");
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-color:white;
+    font-family:'ROBOTO',sans-serif;
 }
-h1{
+h1,h3{
     color:lightseagreen;
     font-style:bold;
     padding-left:40%;
+    padding-top:5%;
 }
-h1 p{
-    
-    border-radius: 2px;
+
+#history{
+    font-size:12px;
+      display:none;  
 }
-.history{
-     display:none; 
+.clickable, .clickable2{
+    padding-left:5%;
+    padding-top:5%;
 }
