@@ -1,0 +1,99 @@
+body,
+header,
+.landingpage {
+  height: 100vh;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#heads{
+  padding-top: 0%;
+}
+
+.social img {
+  border-radius: 50%;
+  transition: 0.2s ease-out;
+}
+.social img:hover {
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+  margin: -3px;
+  padding: 3px;
+  background: yellowgreen;
+}
+
+.landingpage{
+  background-image: url("../image/fashion-public-relations.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  padding-bottom: 20px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.social{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 1%;
+}
+
+.navfooter{
+  float: left;
+  text-align: center;
+  width: 100%; 
+  margin: 2%;
+  padding: 2%;
+  color:white;
+
+}
+  
+.footer{
+    border-color: black;
+    float: left;
+    width: 100%;
+    text-align: unset;
+    width: 100%;
+    margin: 2%; 
+    border-style: solid;
+    border-width: 0.5rem;
+    background-color: rgb(88, 85, 85);
+    color: white;
+    height: 180px;
+    
+
+}
+
+
+.nava{
+  color:white;
+  font-size: larger;
+
+}
+
+
+
+#collections{
+  border-radius: 2rem;
+  box-sizing: border-box;
+  margin: 3%;
+  border-color: black;
+  text-align: center;
+  color: black;
+}
+
+.firstcard {
+  position: bottom;
+  width: 100%;
+  min-height: 100%;
+  background:red;
+  cursor: cell;
+  display: none;
+  transition: all 0.9s ease;
+}
