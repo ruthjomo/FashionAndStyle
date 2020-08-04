@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@1&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,700;1,400&family=Libre+Baskerville&display=swap');
 
 
 .about{
@@ -10,9 +10,10 @@
 .inter{
     font-family: 'Josefin Slab', serif;
     text-align: center;
-    font-weight: lighter;
+    font-weight: bolder;
     font-size: medium;
     padding-top: 3%;
+    color: black;
 }
 #yea{
     font-family: 'Roboto', sans-serif;
@@ -40,5 +41,10 @@
     color: wheat;
 }
 .hear{
-    background-color: black;
+    background-color: rgb(66, 149, 177);
+    padding-bottom: 8%;
+}
+#good{
+    background-image: url("/images/shoesss.jpeg");
+    opacity: 100%;
 }
