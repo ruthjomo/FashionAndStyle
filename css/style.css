@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@1&family=Libre+Baskerville&display=swap');
+
+
+.about{
+     text-align: center;
+     font-family: 'Libre Baskerville', serif;
+     font-size: larger;
+}
+.inter{
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: medium;
+    padding-top: 3%;
+}
+#yea{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 0vh;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: space-evenly,space-between;
+}
+.best{
+    text-align: center;
+    font-size: x-small;
+    font-family: 'Josefin Slab', serif;
+    font-weight: lighter;
+    color: wheat;
+}
+.wee{
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bolder;
+    font-size: large;
+    color: wheat;
+}
+.hear{
+    background-color: black;
+}
