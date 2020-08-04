@@ -1,6 +1,7 @@
 $(documeent).ready(function(){
-    $(".image1").hover(function(){
-        $(".image2").slideUp();
-        $(".image1").slideDown();
-    })
+    $(".images").hover(function(){
+        $("#image1").slideUp(5000);
+        $("#image2").slideDown(5000);
+        
+    });
 });
