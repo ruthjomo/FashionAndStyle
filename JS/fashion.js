@@ -11,6 +11,10 @@ $(document).ready(function(){
         $("#blue").slideUp(3000);
         $("#blue").slideDown(3000);
     })
+    $("#topmen").hover(function(){
+        $("#topmen").slideUp(3000);
+        $("#topmen").slideDown(3000);
+    })
 });
 $(document).ready(function(){
     $(".pic1").click(function(){
