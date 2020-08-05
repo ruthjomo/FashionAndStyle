@@ -24,14 +24,11 @@ h3{
     padding-top:3%;
 }
 
-#history{
+#pic1-p,#pic2-p,#pic3-p,#pic4-p,#pic5-p,#pic6-p,#pic7-p,#pic8-p,#pic9-p,#pic10-p,#pic11-p,#pic12-p{
     font-size:12px;
       display:none;  
 }
-.clickable{
-    padding-left:5%;
-    padding-top:5%;
-}
+
 h4{
     color:lightseagreen;
     font-style:bold;
@@ -40,4 +37,17 @@ h4{
 }
 #slide1-p,#slide2-p, #slide3-p{
     display:none;
+    font-size:12px;
+}
+#men1-p,#men2-p,#men3-p{
+    display:none;
+    font-size:12px;
+}
+#kid1-p,#kid2-p,#kid3-p{
+    display:none;
+    font-size:12px;
+}
+#twenties,#twenties2,#twenties3{
+    padding-left:5%;
+
 }
