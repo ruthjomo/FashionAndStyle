@@ -4,18 +4,23 @@ body{
     background-color:white;
     font-family:'ROBOTO',sans-serif;
 }
-h1,h3{
+h1{
     color:lightseagreen;
     font-style:bold;
     padding-left:40%;
-    padding-top:5%;
+}
+h3{
+    color:lightseagreen;
+    font-style:bold;
+    padding-left:40%;
+    padding-top:3%;
 }
 
 #history{
     font-size:12px;
       display:none;  
 }
-.clickable, .clickable2{
+.clickable{
     padding-left:5%;
     padding-top:5%;
 }
