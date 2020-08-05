@@ -32,5 +32,19 @@ if (slideIndex > slides.length) {slideIndex = 1}
 slides[slideIndex-1].style.display = "block";
 setTimeout(showSlides, 2000); 
 }
-
-                 
+$(document).ready(function(){
+    $(".twenties").click(function(){
+        $("#slide1-p").toggle(3000);
+        $("#slide1").toggle(3000);
+        
+        
+    })
+    $(".slide").click(function(){
+        $("#slide2-p").toggle(3000);
+        $("#slide2").toggle(3000);
+    })
+    $(".slider").click(function(){
+        $("#slide3-p").toggle(3000);
+        $("#slide3").toggle(3000);
+    })
+});             

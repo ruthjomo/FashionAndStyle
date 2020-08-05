@@ -32,4 +32,12 @@ h3{
     padding-left:5%;
     padding-top:5%;
 }
-
+h4{
+    color:lightseagreen;
+    font-style:bold;
+    padding-left:40%;
+    padding-top:3%;
+}
+#slide1-p,#slide2-p, #slide3-p{
+    display:none;
+}
