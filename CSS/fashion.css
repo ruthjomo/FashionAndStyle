@@ -5,20 +5,26 @@ body{
     font-family:'ROBOTO',sans-serif;
 }
 .slides{
-    display:none
+    display:none;
 }
 .slideshow-container{
-    margin-left:35%;
+    padding-left:25%;
+    padding-right: 25%;
     width:100%;
 }
 
 h1{
-    color:lightseagreen;
+    color:black;
     font-style:bold;
-    padding-left:40%;
+    padding-left:35%;
+    padding-top:5%;
+}
+#heading{
+    
+    color:black;
 }
 h3{
-    color:lightseagreen;
+    color:black;
     font-style:bold;
     padding-left:40%;
     padding-top:3%;
@@ -30,7 +36,7 @@ h3{
 }
 
 h4{
-    color:lightseagreen;
+    color:black;
     font-style:bold;
     padding-left:40%;
     padding-top:3%;
@@ -47,7 +53,40 @@ h4{
     display:none;
     font-size:12px;
 }
-#twenties,#twenties2,#twenties3{
+#twenties,#twenties2,#twenties3,#century{
     padding-left:5%;
 
 }
+.navfooter{
+    float: left;
+    text-align: center;
+    width: 100%; 
+    margin: 2%;
+    padding: 2%;
+    color:white;
+  
+  }
+    
+  .footer{
+      border-color: black;
+      float: left;
+      width: 100%;
+      text-align: unset;
+      width: 100%;
+      margin: 2%; 
+      border-style: solid;
+      border-width: 0.5rem;
+      background-color: rgb(88, 85, 85);
+      color: white;
+      height: 180px;
+      
+  
+  }
+  
+  
+  .nava{
+    color:white;
+    font-size: larger;
+  
+  }
+  
