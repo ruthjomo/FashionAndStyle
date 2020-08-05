@@ -45,20 +45,36 @@
     padding-bottom: 8%;
 }
 #good{
-    background-image: url("/images/shoesss.jpeg");
-    opacity: 90%;
+    background-image: url("/images/shoee.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
 }
-#img:hover {
+    #img:hover {
         -ms-transform: scale(1.5);
         -webkit-transform: scale(1.5);
         transform: scale(1.5);
     } 
 #img {
     border-radius: 50%;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px rgb(26, 164, 189);
 }
 #love{
     text-align: center;
     font-family: 'Josefin Slab', serif;
+}
+.picha{
+    text-align: center;
+}
+#imge{
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(26, 164, 189);
+}
+#colo{
+    background-color: rgb(83, 79, 79);
+}
+#hh{
+    padding-bottom: 6%;
 }
       
