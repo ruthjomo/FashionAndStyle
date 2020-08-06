@@ -2,7 +2,7 @@ body{
     margin:0%;
     padding:0%;
     background-color:white;
-    font-family:'ROBOTO',sans-serif;
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
     
 }
 .title::after{
@@ -51,32 +51,56 @@ h1{
  .head{
      padding-top:2%;
     padding-left:5%;                   
-    padding-right:5%;                   
+    padding-right:3; 
+    font-style:italic;                  
 } 
+.title2{
+    padding-left:20%;
+}
 .left{
     padding-left:40%;
 }
+#left::before{
+    content:"";
+    border-left: solid black;
+    height:80px;
+    float:right;
+    position:top;
+    display:block;
+    margin-left:2%;
+}
+#right::before{
+    content:"";
+    border-left: solid black;
+    height:80px;
+    float:left;
+    position:top;
+    display:block;
+    margin-right:10%;
+}
 
-    .title2::before{ 
-        content:"";
-        border-left:  solid black;
-        height: 800px; 
-        width:500px;
-        margin-right:10%;
-        
-        
-      }
-      .title2::after{ 
-        content:"";
-        border-right:solid black;
-        height: 500px;
-        width:500px; 
-        margin-left:10%;
-        
-      }
-      .hr{
+.hr{
           padding-top:5%;
       }
+      
+      .title3::after{
+        content:"";
+        background:black;
+        height:5px;
+        width:50px;
+        padding-left:30%;
+        display:block;
+        transform:translateX();
+    }
+    .title3::before{
+        content:"";
+        background:black;
+        height:5px;
+        width:50px;
+        padding-left:30%;
+        display:block;
+        transform:translateX();
+    }
 
 h3{
     color:black;
