@@ -1,11 +1,7 @@
-
-
-.landingpage {
-  height: 80vh;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   
 }
 
