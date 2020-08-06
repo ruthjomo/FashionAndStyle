@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,700;1,400&family=Libre+Baskerville&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
 
 .about{
      text-align: center;
-     font-family: 'Libre Baskerville', serif;
+     font-family: 'Cormorant Garamond', serif;
      font-size: larger;
      padding-top: 6%;
     }
+    .logo{
+        height: 50px;
+        width: 150px;
+       
+      }
 .inter,#yoo{
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Cormorant Garamond', serif;
     text-align: center;
     font-weight: bolder;
     font-size: medium;
@@ -17,7 +22,7 @@
     color: black;
 }
 #yea{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: bolder;
     margin-left: 15%;
     margin-right: 15%;
@@ -30,14 +35,14 @@
 .best{
     text-align: center;
     font-size: x-small;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: lighter;
     color: black;
     padding-bottom: 7%;
 }
 .wee{
     text-align: center;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: bolder;
     font-size: large;
     color: black;     
@@ -64,7 +69,7 @@
 }
 #love{
     text-align: center;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 .picha{
     text-align: center;
