@@ -6,8 +6,9 @@
      text-align: center;
      font-family: 'Libre Baskerville', serif;
      font-size: larger;
-}
-.inter{
+     padding-top: 6%;
+    }
+.inter,#yoo{
     font-family: 'Josefin Slab', serif;
     text-align: center;
     font-weight: bolder;
@@ -31,21 +32,22 @@
     font-size: x-small;
     font-family: 'Josefin Slab', serif;
     font-weight: lighter;
-    color: wheat;
+    color: black;
+    padding-bottom: 7%;
 }
 .wee{
     text-align: center;
     font-family: 'Josefin Slab', serif;
     font-weight: bolder;
     font-size: large;
-    color: wheat;     
+    color: black;     
 }
 .hear{
     background-color: rgb(66, 149, 177);
     padding-bottom: 8%;
 }
 #good{
-    background-image: url("/images/shoee.webp");
+    background-color: whitesmoke;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -67,22 +69,22 @@
 .picha{
     text-align: center;
 }
-#imge{
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgb(26, 164, 189);
-}
-#colo{
-    background-color: rgb(83, 79, 79);
-}
 #hh{
     padding-bottom: 6%;
 }
 #inte{
-    background-color: rgb(107, 104, 104);
-    height: 60vh;
-
+    background-color: whitesmoke;
 }
 .row{
     margin: 5%;
+}
+#log{
+    border-radius: 50%;
+    background-color: rgb(95, 95, 104);
+}
+#log:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
       
