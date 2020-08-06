@@ -1,9 +1,5 @@
 $(document).ready(function(){
-    $("#move1").hover(function(){
-        $("#move1").slideUp(3000);
-        $("#move1").slideDown(3000);
-    })
-    $("#move2").hover(function(){
+        $("#move2").hover(function(){
         $("#move2").slideUp(3000);
         $("#move2").slideDown(3000);
     })
