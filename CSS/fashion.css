@@ -142,36 +142,3 @@ h4{
     border-radius:5px;
 }
 
-.navfooter{
-    float: left;
-    text-align: center;
-    width: 100%; 
-    margin: 2%;
-    padding: 2%;
-    color:white;
-  
-  }
-    
-  .footer{
-      border-color: black;
-      float: left;
-      width: 100%;
-      text-align: unset;
-      width: 100%;
-      margin: 2%; 
-      border-style: solid;
-      border-width: 0.5rem;
-      background-color: rgb(88, 85, 85);
-      color: white;
-      height: 180px;
-      
-  
-  }
-  
-  
-  .nava{
-    color:white;
-    font-size: larger;
-  
-  }
-  
