@@ -63,6 +63,12 @@ $(document).ready(function(){
     })
 
 });
+$(document).ready(function(){
+    $(".paragraph").hover(function(){
+        $(".paragraph").fadeOut(3000);
+        $(".paragraph").fadeIn(3000);
+    })
+});
 
 var slideIndex = 0;
 showSlides();
